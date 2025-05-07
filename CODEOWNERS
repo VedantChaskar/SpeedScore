@@ -1,7 +1,7 @@
 # Code owners for SpeedScore repository
 
 # JavaScript files
-*.js  @VedantChaskar/js-team
+*.js  @VedantChaskar/jsteam
 
 # HTML files
-*.html @VedantChaskar/html-team
+*.html @VedantChaskar/htmlteam
