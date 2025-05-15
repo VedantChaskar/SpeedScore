@@ -184,6 +184,8 @@ GlobalUserData.rounds[rIndex].seconds +
 "onclick='confirmDelete(" + GlobalUserData.rounds[rIndex].roundNum + ")'>" +
 "<span class='fas fa-trash'></span></button></td>";
 }
+/* 
+Delete round*/
 
 /*************************************************************************
 * @function addRoundToTable 
