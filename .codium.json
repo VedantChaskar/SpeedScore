@@ -1,0 +1,7 @@
+{
+  "pr_agent": {
+    "enabled": true,
+    "review_comment_style": "inline",
+    "focus_areas": ["security", "performance", "best_practices"]
+  }
+}
