@@ -16,6 +16,8 @@
  function updateSGS() {
   GlobalRoundSGS.value = 
     (GlobalRoundStrokes.valueAsNumber + GlobalRoundMinutes.valueAsNumber) + 
+
+   
     ":" + GlobalRoundSeconds.value
 }
 
@@ -33,6 +35,7 @@ function changeSeconds() {
   if (GlobalRoundSeconds.value.length < 2) {
     GlobalRoundSeconds.value = "0" + GlobalRoundSeconds.value;
   }
+ 
   updateSGS();
 }
 
